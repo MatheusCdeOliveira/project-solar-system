@@ -16,6 +16,18 @@ h2 {
   font-size: 32px;
 }
 
-#img-planets {
-  width: 140px;
-}
+/* #img-planets {
+  width: max-content;
+} */
+
+/* #planet-title {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 0.3cm;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 40%;
+} */
