@@ -3,8 +3,19 @@
 }
 
 body {
-  background-image: url(images/background.png);
+  background-image: url('images/background.png');
   color: white;
   text-align: center;
 }
 
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+#img-planets {
+  width: 140px;
+}
