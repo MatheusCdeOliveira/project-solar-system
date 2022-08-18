@@ -13,10 +13,6 @@ class PlanetCard extends React.Component {
   }
 }
 
-// PlanetCard.defaultProps = {
-//   PlanetImage: 'path-to-image',
-// };
-
 PlanetCard.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
