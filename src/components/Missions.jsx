@@ -8,15 +8,17 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        {missions.map((e) => (
-          <MissionCard
-            key={ e.year }
-            name={ e.name }
-            year={ e.year }
-            country={ e.country }
-            destination={ e.destination }
-          />
-        ))}
+        <div className="flex flex-row flex-wrap ml-10">
+          {missions.map((e) => (
+            <MissionCard
+              key={ e.year }
+              name={ e.name }
+              year={ e.year }
+              country={ e.country }
+              destination={ e.destination }
+            />
+          ))}
+        </div>
       </div>
     );
   }

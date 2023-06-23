@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 body {
@@ -9,25 +9,25 @@ body {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 48px;
 }
 
 h2 {
   font-size: 32px;
 }
 
-/* #img-planets {
-  width: max-content;
-} */
+#img-planets {
+  /* width: 200px; */
+} 
 
-/* #planet-title {
+ #planet-title {
   align-items: center;
   border: 1px solid white;
   border-radius: 0.3cm;
   display: flex;
   height: 60px;
   justify-content: center;
-  margin: auto;
+  /* margin: auto; */
   text-align: center;
   width: 40%;
-} */
+}

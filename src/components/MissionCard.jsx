@@ -5,11 +5,22 @@ class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
-        <p data-testid="mission-name">{name}</p>
-        <p data-testid="mission-year">{year}</p>
-        <p data-testid="mission-country">{country}</p>
-        <p data-testid="mission-destination">{destination}</p>
+      <div
+        className="m-auto rounded-xl pb-8 mb-10 border-2 w-1/6 px-10 mr-12"
+        data-testid="mission-card"
+      >
+        <div className="border-b-2 opacity-80 h-14 mb-6 flex items-center justify-center">
+          <p
+            className="text-l font-extrabold italic"
+            data-testid="mission-name"
+          >
+            {name}
+
+          </p>
+        </div>
+        <p className="opacity-80" data-testid="mission-year">{year}</p>
+        <p className="opacity-80" data-testid="mission-country">{country}</p>
+        <p className="opacity-80" data-testid="mission-destination">{destination}</p>
       </div>
     );
   }
